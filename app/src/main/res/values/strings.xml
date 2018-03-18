@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MGilangBagaskara_1202154204_studycase4</string>
+    <string-array name="mahasiswa"> //string yang berisikan nama-nama mahasiswa yang akan dipanggil nanti
+        <item>Muhammad Gilang Bagaskara</item>
+        <item>Herman Abon</item>
+        <item>Jehdije</item>
+        <item>Yudha Bhakti</item>
+        <item>Ikhsan</item>
+        <item>Afif Doscreng</item>
+        <item>Anandikles</item>
+        <item>Upap Didin</item>
+        <item>Kahfi Nyunyu</item>
+        <item>Gilan</item>
+        <item>Abay </item>
+        <item>Jahik</item>
+        <item>Posma</item>
+        <item>Rezky</item>
+        <item>Elroy</item>
+        <item>Yadi</item>
+    </string-array>
+</resources>

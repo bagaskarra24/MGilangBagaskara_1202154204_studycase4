@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.android.mgilangbagaskara_1202154204_studycase4.CariGambar">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:paddingBottom="16dp"
+        android:textAlignment="center"
+        android:text="Cari Gambar" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input URL Here"
+        android:id="@+id/mencari"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:text="https://media.tenor.com/images/b11e07dd14ec327985814c9cc952edea/tenor.png"/>
+    <Button
+        android:onClick="tombol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:id="@+id/cari"
+        android:text="Klik untuk mencari gambar"
+        android:textAllCaps="false"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:id="@+id/gbr"/>
+</LinearLayout>
